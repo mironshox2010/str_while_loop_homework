@@ -6,4 +6,9 @@ def main(s):
     Returns:
         int: return answer
     """
-    return
+    t = 0
+    for m in s:
+        if m.isalpha():
+            t +=1
+    return t
+print(main(s ="python 2022"))
