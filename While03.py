@@ -12,4 +12,4 @@ def main(s):
             t +=1
     return len(s)-t
 print(main(s = "#has23h\ t ag@$"))
-    
+     
